@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0; /* Taustaväri koko sivulle */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    font-family: "Arial", sans-serif; /* Eri fontti otsikoille */
+    font-weight: bold; /* Lihavointi otsikoille */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #000; /* Reunaviivat taulukolle */
+}
+
+thead {
+    background-color: #eee; /* Taustaotsikkoriville */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Eriväriset rivit taulukossa */
+}
